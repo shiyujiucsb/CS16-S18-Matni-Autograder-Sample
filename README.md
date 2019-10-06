@@ -1,4 +1,7 @@
 # Introduction
+This repo is a standalone Gradescope autograder.
+Previously, there was [a repo for autograder.zip](https://github.com/ucsb-gradescope-tools/link-gs-zip-with-repo), [a private repo for assignment](https://ucsb-gradescope-tools.github.io/topics/programming/), and [a repo for diffs based grader](https://github.com/ucsb-gradescope-tools/gs-diff-based-testing).
+Now this repo pieces these three repos together.
 
 ## Important Files
 * ``repo/diffs.sh``: this script contains all the commands of the test cases. A test case is often like:
